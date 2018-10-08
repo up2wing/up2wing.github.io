@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      解决github page无法显示的问题
-subtitle:
+subtitle:   Windows下搭建Jekyll环境
 date:       2018-10-06
 author:     up2wing
 header-img: img/post-bg-desk.jpg
