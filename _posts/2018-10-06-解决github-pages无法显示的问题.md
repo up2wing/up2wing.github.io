@@ -56,6 +56,7 @@ $ gem install bundler
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
 ```
+
 ### 安装Jekyll
 ```
 $ bundle install
@@ -69,7 +70,7 @@ Configuration file: F:/github/up2wing.github.io/_config.yml
              Error: could not read file ***.md: invalid byte sequence in UTF-8
 
 ```
-没有用utf-8编码，vim打开重新用utf-8格式保存下就可以了。
+没有用utf-8编码，vim打开重新用utf-8格式保存下就可以了：
 ```
 set fileencoding=UTF-8
 ```
@@ -77,6 +78,7 @@ set fileencoding=UTF-8
 
 ## 可能遇到的问题
 - ERROR 1
+
 ```
 $ gem install jekyll bundler
 ERROR:  Error installing jekyll:
@@ -104,10 +106,12 @@ Parsing documentation for bundler-1.16.6
 Done installing documentation for bundler after 8 seconds
 1 gem installed
 ```
+
 参考[Ruby-generated makefile doesn't run](https://stackoverflow.com/questions/17739607/ruby-generated-makefile-doesnt-run)，将MIGW从path环境变量中删除。
 
 
 - ERROR 2
+
 ```
 $ gem install jekyll bundler
 ERROR:  Error installing jekyll:
@@ -122,4 +126,4 @@ Done installing documentation for bundler after 8 seconds
 1 gem installed
 ```
 
-
+未安装devkit。
